@@ -23,8 +23,10 @@ python UVSimEnv.py
 
 ## Evaluate the Simulation
 
-The simulation yields data in the duration and all of the generated data is stored under the directory data.
+The simulation yields data in the duration and all of the generated data is stored under the directory "./data".
 
 Change to the directory utils.
 
-The scripts in this directory generate all the images used for the evaluation.
+The scripts in this directory extract information from the raw data and produce formatted data for evaluation.
+
+The method and metrics used for the evaluation of simulation can be found under the directory "./validation".

@@ -710,7 +710,7 @@ if __name__ == "__main__":
 
 
     # deploy model
-    onnx_model_path = "model.onnx"
+    onnx_model_path = "../result/model.onnx"
     session = onnxruntime.InferenceSession(onnx_model_path)
     print(session.get_inputs()[0])
     print(session.get_inputs()[1])
